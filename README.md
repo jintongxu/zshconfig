@@ -22,6 +22,12 @@ cp .zshrc ~/
 ```
 
 ## 4、安装Plugins
+- powerlevel10k主题
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
 - 代码高亮，终端输入正确命令时候是绿色的，不正确的是红色的。 
 安装：
 ```bash
@@ -41,4 +47,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 - autojump
 ```
 sudo apt install autojump
+```
+
+## 5、重新加载zsh配置
+
+```bash
+exec zsh
 ```
