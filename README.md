@@ -1,10 +1,27 @@
-## oh my zsh
+# 使用该配置
+## 1、安装zsh
+```bash
+sudo apt install zsh
+```
+
+## 2、oh my zsh
 安装：
 ```bash
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-## Plugins
+## 3、将我的配置覆盖你的默认配置
+
+```bash
+git clone https://github.com/xjintong/zshconfig.git
+
+cd zshconfig
+
+cp .zshrc ~/
+
+```
+
+## 4、安装Plugins
 - 代码高亮，终端输入正确命令时候是绿色的，不正确的是红色的。 
 安装：
 ```bash
